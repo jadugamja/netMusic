@@ -8,63 +8,62 @@
 <meta charset="UTF-8">
 <title>셀렉트</title>
 <style type="text/css">
-
 	body {
 			color: white;
 		}
-		p.logo {
-			background: transparent;
-			color: red; 
-			text-align: left;
-			font-size: 40px;
-			margin-top: 0px;
-			margin-left: 10px;
-		}
-		div.profile-aria{
-			/*레이아웃 설정*/
-			position:absolute;
-			top:50%;
-			left:50%;
-			transform:translate(-50%, -50%)
-		}
-		p.tv {
-			
-		}
-		li {
-			/*list 가로 배열*/
-			float: left; 
-			/* 문장 앞에 있는 마커 설정을 없앰; */
-			list-style: none; 
-			/* 줄바꿈 설정 */
-			display: block;
-			text-align: center;
-			font-size: 28px;
-			margin-bottom: 10px;
-			margin-left: 25px;
-		}
-		div.profile {
-			width: 150px; 
-			height: 200px; 
-			background: transparent;
-		}
-		div.profile-card{
-			width: 150px; 
-			height: 150px;
-			background: white;
-		}
-		p.profile-card {
-			color: white; 
-			text-align: center;
-		}
-		div.button {
-			width: 120px;
-			height: 30px;
-			margin-left: 45%; 
-			margin-top: 30%;
-			text-align: center;
-			padding: 5px;
-			border: 1px solid white;
-		}
+	p .logo {
+		background: transparent;
+		color: red; 
+		text-align: left;
+		font-size: 40px;
+		margin-top: 0px;
+		margin-left: 10px;
+	}
+	div .profile-aria{
+		/*레이아웃 설정*/
+		position:absolute;
+		top:50%;
+		left:50%;
+		transform:translate(-50%, -50%)
+	}
+	p .tv {
+
+	}
+	li {
+		/*list 가로 배열*/
+		float: left; 
+		/* 문장 앞에 있는 마커 설정을 없앰; */
+		list-style: none; 
+		/* 줄바꿈 설정 */
+		display: block;
+		text-align: center;
+		font-size: 28px;
+		margin-bottom: 10px;
+		margin-left: 25px;
+	}
+	div .profile {
+		width: 150px; 
+		height: 200px; 
+		background: transparent;
+	}
+	div .profile-card{
+		width: 150px; 
+		height: 150px;
+		background: white;
+	}
+	p .profile-card {
+		color: white; 
+		text-align: center;
+	}
+	div .button {
+		width: 120px;
+		height: 30px;
+		margin-left: 45%; 
+		margin-top: 30%;
+		text-align: center;
+		padding: 5px;
+		border: 1px solid white;
+	}
 </style>
 </head>
 <body bgcolor="black">
